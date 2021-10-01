@@ -9230,7 +9230,7 @@ html.rd-navbar-fixed-linked .page {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(8,39,67,0.8);
 	transition: inherit;
 	z-index: -1;
 }
@@ -9271,7 +9271,7 @@ html.rd-navbar-fixed-linked .page {
 
 .swiper-button-prev:hover::after {
 	transform: rotate(-360deg);
-	color: #151515;
+	color: #fff;
 }
 
 @media (min-width: 1600px) {
@@ -9286,6 +9286,7 @@ html.rd-navbar-fixed-linked .page {
 
 .swiper-button-next:before {
 	content: "\f14f";
+	color: #fff;
 }
 
 .swiper-button-next:hover::after {
